@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/bzixilu/twig-sourcemap.git"
+    }
+  ],
+
+  "require": {
+    "bzixilu/twig-sourcemap": "master@dev"
+  }
+}
