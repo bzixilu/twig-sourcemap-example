@@ -18,7 +18,6 @@
     {% for product in products %}
     <tr>
         <td>{{ product.name }}</td>
-        {{ breakpoint() }}
         <td>{{ product.description }}</td>
         <td>{{ product.value }}</td>
         <td>{{ product.date_register|date("m/d/Y") }}</td>
